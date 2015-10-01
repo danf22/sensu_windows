@@ -1,6 +1,6 @@
 #! /usr/bin/env ruby
 #
-#   metrics-windows-cola_impresion.rb
+#   metrics-windows-cola_impresion_error_en_trbajos.rb
 #
 # DESCRIPTION:
 #   Este scripts solo es para windows server en español
