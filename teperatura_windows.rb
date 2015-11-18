@@ -35,7 +35,7 @@ class DiskUsageMetric < Sensu::Plugin::Metric::CLI::Graphite
   option :scheme,
          description: 'Metric naming scheme, text to prepend to .$parent.$child',
          long: '--scheme SCHEME',
-         default: "#{Socket.gethostname}.archivo_a_monitorear"
+         default: "#{Socket.gethostname}.temperatura_del_servidor"
 
   option :ignore_mnt,
          description: 'Ignore mounts matching pattern(s)',
